@@ -9,20 +9,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:fish_book/main.dart';
+import 'package:unlockafish/main.dart';
 
 void main() {
-  testWidgets('FishBook app smoke test', (WidgetTester tester) async {
+  testWidgets('UnlockAFish app smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(
       const ProviderScope(
-        child: FishBookApp(),
+        child: UnlockAFishApp(),
       ),
     );
 
     // Verify that our app loads correctly.
-    expect(find.text('鱼书 FishBook'), findsOneWidget);
-    expect(find.text('欢迎来到鱼书'), findsOneWidget);
+    expect(find.text('UnlockAFish'), findsOneWidget);
+    expect(find.text('欢迎来到 UnlockAFish'), findsOneWidget);
 
     // Verify bottom navigation is present
     expect(find.byType(BottomNavigationBar), findsOneWidget);

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fish-001",
+    "scientificName": "Amphiprion ocellaris",
+    "commonNames": ["小丑鱼", "Ocellaris Clownfish"],
+    "family": "Pomacentridae",
+    "regions": ["EA", "IO"],
+    "sizeMaxCm": 11,
+    "description": "体色鲜艳，橘色身体带有白色环带，常与海葵共生。",
+    "image": "assets/images/fish/ocellaris_clownfish.jpg"
+  },
+  {
+    "id": "fish-002",
+    "scientificName": "Zanclus cornutus",
+    "commonNames": ["镖旗鱼", "Moorish Idol"],
+    "family": "Zanclidae",
+    "regions": ["EA", "IO", "WP"],
+    "sizeMaxCm": 23,
+    "description": "侧扁体型，黑白黄相间的条纹，背鳍延伸呈长丝状。",
+    "image": "assets/images/fish/moorish_idol.jpg"
+  },
+  {
+    "id": "fish-003",
+    "scientificName": "Chaetodon auriga",
+    "commonNames": ["长丝蝴蝶鱼", "Threadfin Butterflyfish"],
+    "family": "Chaetodontidae",
+    "regions": ["IO", "WP"],
+    "sizeMaxCm": 23,
+    "description": "黄白底色，体侧有细致的斑纹，背鳍具延长丝状。",
+    "image": "assets/images/fish/threadfin_butterflyfish.jpg"
+  },
+  {
+    "id": "fish-004",
+    "scientificName": "Acanthurus coeruleus",
+    "commonNames": ["蓝倒吊", "Blue Tang"],
+    "family": "Acanthuridae",
+    "regions": ["WA", "CA"],
+    "sizeMaxCm": 39,
+    "description": "蓝色体色，尾柄处具锋利的棘刺，常见于珊瑚礁。",
+    "image": "assets/images/fish/blue_tang.jpg"
+  },
+  {
+    "id": "fish-005",
+    "scientificName": "Sphyrna lewini",
+    "commonNames": ["锤头鲨", "Scalloped Hammerhead"],
+    "family": "Sphyrnidae",
+    "regions": ["EA", "WP", "CA", "WA"],
+    "sizeMaxCm": 420,
+    "description": "头部呈锤状，具独特外形，成群游弋于外海。",
+    "image": "assets/images/fish/scalloped_hammerhead.jpg"
+  }
+]

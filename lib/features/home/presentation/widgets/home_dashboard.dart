@@ -62,7 +62,7 @@ class HomeDashboard extends ConsumerWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text(
-            '欢迎来到鱼书',
+            '欢迎来到 UnlockAFish',
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
@@ -71,7 +71,7 @@ class HomeDashboard extends ConsumerWidget {
           ),
           const SizedBox(height: 8),
           const Text(
-            '探索海洋世界，记录潜水时光',
+            '解锁鱼类图鉴，开启识别与收藏之旅',
             style: TextStyle(
               fontSize: 16,
               color: Colors.white70,
@@ -87,7 +87,7 @@ class HomeDashboard extends ConsumerWidget {
               ),
               const SizedBox(width: 8),
               const Text(
-                '开始你的海洋探索之旅',
+                '现在就开始解锁你的第一条鱼',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 14,

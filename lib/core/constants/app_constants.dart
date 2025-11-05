@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 class AppConstants {
   // 应用信息
-  static const String appName = '鱼书 FishBook';
+  static const String appName = 'UnlockAFish';
+  static const String appTagline = '解锁鱼类图鉴';
   static const String appVersion = '1.0.0';
   
   // 主题色彩
@@ -27,13 +28,15 @@ class AppConstants {
   static const Duration longAnimationDuration = Duration(milliseconds: 500);
   
   // 数据库
-  static const String databaseName = 'fishbook.db';
+  static const String databaseName = 'unlockafish.db';
   static const int databaseVersion = 1;
   
   // Hive Box 名称
   static const String fishBoxName = 'fish_box';
   static const String diveLogBoxName = 'dive_log_box';
   static const String settingsBoxName = 'settings_box';
+  static const String collectionBoxName = 'collection_box';
+  static const String achievementBoxName = 'achievement_box';
   
   // 图片尺寸
   static const double fishImageSize = 120.0;

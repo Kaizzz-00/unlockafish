@@ -5,10 +5,14 @@ class StorageService {
   static Box? _fishBox;
   static Box? _diveLogBox;
   static Box? _settingsBox;
+  static Box? _collectionBox;
+  static Box? _achievementBox;
   
   static Box get fishBox => _fishBox!;
   static Box get diveLogBox => _diveLogBox!;
   static Box get settingsBox => _settingsBox!;
+  static Box get collectionBox => _collectionBox!;
+  static Box get achievementBox => _achievementBox!;
   
   static Future<void> init() async {
     try {
@@ -16,6 +20,8 @@ class StorageService {
       _fishBox = await Hive.openBox(AppConstants.fishBoxName);
       _diveLogBox = await Hive.openBox(AppConstants.diveLogBoxName);
       _settingsBox = await Hive.openBox(AppConstants.settingsBoxName);
+      _collectionBox = await Hive.openBox(AppConstants.collectionBoxName);
+      _achievementBox = await Hive.openBox(AppConstants.achievementBoxName);
       
       print('存储服务初始化成功');
     } catch (e) {
@@ -59,5 +65,7 @@ class StorageService {
     await _fishBox?.close();
     await _diveLogBox?.close();
     await _settingsBox?.close();
+    await _collectionBox?.close();
+    await _achievementBox?.close();
   }
 }

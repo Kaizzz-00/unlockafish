@@ -1,6 +1,6 @@
 {
-    "name": "fish_book",
-    "short_name": "fish_book",
+    "name": "UnlockAFish",
+  "short_name": "UnlockAFish",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
